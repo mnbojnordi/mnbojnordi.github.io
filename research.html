@@ -1,0 +1,97 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+  <title>Mahdi Nazm Bojnordi's Webpage</title>
+  <meta name="description" content="website description" />
+  <meta name="keywords" content="website keywords, website keywords" />
+  <meta http-equiv="content-type" content="text/html; charset=windows-1252" />
+  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Tangerine&amp;v1" />
+  <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz" />
+  <link rel="stylesheet" type="text/css" href="style/style.css" />
+</head>
+
+<body>
+  <div id="main">
+    <div id="header">
+      <div id="logo">
+        <h1>Mahdi Nazm Bojnordi</h1>
+        <!--div class="slogan">Cool slogan goes here!</div-->
+      </div>
+      <div id="sublogo">
+        <h1>Principal Engineer, Qualcomm AI Research</h1>
+      </div>
+      <div id="sublogo">
+        <h1>Former Assistant Professor of School of Computing, University of Utah</h1>
+      </div>
+      <!--div id="sublogo">
+        <h1>School of Computing, University of Utah</h1>
+      </div-->
+      <div id="menubar">
+        <ul id="menu">
+          <!-- put class="current" in the li tag for the selected page - to highlight which page you're on -->
+          <li><a href="index.html">Home</a></li>
+          <li class="current"><a href="research.html">Research</a></li>
+          <li><a href="publications.html">Publications</a></li>
+          <li><a href="teaching.html">Teaching</a></li>
+        </ul>
+      </div>
+    </div>
+    <div id="site_content">
+      <div id="content">
+          <!-- insert the page content here -->
+          <h3> Large Scale Data Clustering </h3>
+          <table style="width:100%">
+            <tr>
+              <td valign="top">
+                <p>Data clustering that refers to partitioning a set of objects into meaningful groups with no predefined labels is one of the most fundamental components in learning and understanding the natural structure of data sets. Clustering techniques are increasingly used by various fields of science and engineering for important applications such as precision medicine, world wide web, machine learning, self-driving cars, business marketing, and economy. Due to recent advances in sensor and storage technologies data clustering has become one of the most critical tools for future computer systems.</p>
+                <p>k-means is one of the most commonly used algorithms for solving data clustering problems in science and engineering. For instance, iterative k-means clustering is used to identify cancerous samples, to perform unsupervised learning tasks, or to classify non-numerical data sets such as text documents. Due to excessive memory accesses induced by the iterative nature of these applications, processing big data requires significant energy and execution time. Numerous techniques have been proposed in the literature to address this problem, such as parallel probabilistic platforms, GPU based accelerators, application specific hardware frameworks, and FPGA based accelerators. Regrettably, the required data movement between main memory and the processor cores limits the performance of these recent efforts even for moderately sized data sets. Moreover, with the growing interest in the future data intensive applications---such as deep learning applications that rely on unsupervised classification---the importance of high performance k clustering methods is expected to increase.</p>
+              </td>
+              <td valign="top">
+                <img src="research/lsdc/lsdc.jpg" alt="large scale data clustering" width=300 align="right">
+              </td>
+            </tr>
+          </table>
+          <tr>
+            <h2> Memristive Data Clustering </h2>
+            <p>
+              This project proposes a novel mechanism for computing bit serial medians within resistive RAM (RRAM) arrays with no need to read out the operands from memory cells. We propose a novel 4-transistor, 4-memristor (4T-4R) memory cell that enables in-situ median computation within the data arrays. (If necessary, the proposed cell could be used as four ordinary 1T-1R memory cells to store four bits of information.) The proposed hardware is used to accelerate a data clustering library using breast cancer samples, indoor localization, and the US census datasets, as well as two applications employing k-means clustering. Our simulation results indicate orders of magnitude performance and energy-efficiency gains for various applications of k-medians clustering.
+              <h4> Youtube Videos </h4>
+              <ul>
+                <li> An overview of the proposed accelerator is available <a href="https://youtu.be/JI_2RtnV0QQ">here</a>.</li>
+              </ul>
+              <h4> Publications </h4>
+              <ul>
+                <li><a href="./data/tvlsi18.pdf">Accelerating k-Medians Clustering using a Novel 4T-4R RRAM Cell</a>, Yomi Karthik Rupesh, Payman Behnam, Goverdhan Reddy Pandla, Manikanth Miryala, and Mahdi Nazm Bojnordi, <i>IEEE Transactions on Very Large Scale Integration Systems (<b>TVLSI</b>)</i>, 2018.</li>
+                <li><a href="http://ieeexplore.ieee.org/abstract/document/8091262/">Large Scale Data Clustering Using Memristive k-Median Computation</a>, Yomi Karthik Rupesh, Mahdi Nazm Bojnordi, <i>International Conference on Parallel Architectures and Compilation Techniques (<b>PACT</b>)</i>, ACM SRC Presentations, 2017.</li>
+              </ul>
+              </p>
+          </tr>
+        </div>
+      </div>
+
+      <div id="footer">
+          <p>Copyright &copy; Mahdi Nazm Bojnordi | <a href="index.html">Home</a> | <a href="research.html">Research</a> | <a href="publications.html">Publications</a> | <a href="teaching.html">Teaching</a></p>
+      </div>
+    </div>
+
+<!-- Start of StatCounter Code for Default Guide -->
+<script type="text/javascript">
+var sc_project=11069651; 
+var sc_invisible=1; 
+var sc_security="b541c1c6"; 
+var scJsHost = (("https:" == document.location.protocol) ?
+"https://secure." : "http://www.");
+document.write("<sc"+"ript type='text/javascript' src='" +
+scJsHost+
+"statcounter.com/counter/counter.js'></"+"script>");
+</script>
+<noscript><div class="statcounter"><a title="click tracking"
+href="http://statcounter.com/" target="_blank"><img
+class="statcounter"
+src="//c.statcounter.com/11069651/0/b541c1c6/1/" alt="click
+tracking"></a></div></noscript>
+<!-- End of StatCounter Code for Default Guide -->
+
+  </body>
+</html>
